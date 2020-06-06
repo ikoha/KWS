@@ -1,0 +1,200 @@
+body{
+    font-family:Arial,Helvetica, Sans-serif;
+    background-color:beige;
+    margin: 0px;
+}
+header{
+    display: inline-flex;
+    border-style: hidden;
+   /* border-radius: 25px;*/
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+    text-align: center;
+}
+img{    
+    margin-left: 30px;
+       
+}
+header h1{
+    padding-left: 200px;
+}
+.cap{
+    border-style: hidden;
+   /* border-radius: 20px;*/
+    background-color: darkgoldenrod;
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+    height: 50px;
+    padding-top: 20px;
+    color: ghostwhite;
+    font-style: italic;
+    
+
+}
+nav{
+    border-style: hidden;
+    background-color: khaki;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+} nav a{
+    padding-left: 40px;
+    color: maroon;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:green;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: deeppink;
+}
+a{
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: maroon;
+}
+aside{
+    margin-left: 0px;
+    border-style: solid;
+    padding-left: 20px;
+    background-color: goldenrod;
+    /*opacity: 0.3;*/
+    padding-top: 20px;
+    width: 33.3%;
+    padding-bottom: 20px;
+    text-align: start;
+}
+aside h3{
+    color: mintcream;
+    font-size: 20px;
+    text-align: center;
+}
+/*aside{
+    margin-left: 0px;
+    border-style: hidden;
+    padding-left: 20px;
+    background-color: goldenrod;
+    opacity: 0.3;
+    padding-top: 20px;
+    width: 33.3%;
+    padding-bottom: 20px;
+}
+aside{
+    margin-left: 0px;
+    border-style: hidden;
+    padding-left: 20px;
+    background-color: goldenrod;
+    opacity: 0.3;
+    padding-top: 20px;
+    width: 33.3%;
+    padding-bottom: 20px;
+}
+*/
+.box{
+    display: flex;
+    
+    
+}
+article h1{
+    font-size: 30px;
+    color: olive;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+article{
+    background-color: palegreen;
+    padding-top: 10px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+.bar{
+    display: flex;
+    padding-top: 0px;
+    height: 20px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+.art{
+    padding-top: 700px;
+    margin-left: 10px;
+}
+.bar2{
+    padding-left: -10px;
+}
+.bar1{
+    padding-left: 0px;
+}
+footer{
+background-color: navajowhite;
+padding-top: 10px;
+font-size: 12px;
+font-weight: bold;
+color: olive;
+font-style: italic;
+padding-bottom: 30px;
+}
+    
+.myfoot{
+    display: flex;
+}
+.foot1{
+    margin-left: 20px;
+    border-style: hidden;
+    width: 30%;
+    font-size:12px;
+    padding: 10px;
+    
+    
+}
+.foot2{
+    border-style: hidden;
+    width: 30%;
+}
+.foot1 li{
+    list-style: none;
+}
+.foot1 a{
+    font-size: 12px;
+    color: olive;
+}
+.foot1 a:hover{
+    color: chocolate; 
+}
+hr{
+    text-emphasis: bold;
+}
+.main{
+    background-color: palegreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.main li{
+    list-style-type: circle;
+}
+ul li{
+    list-style: none;
+}
+.form2{
+     background-image: url("/images/baobab.jpg");
+     margin: 20px;
+}
+.conserv{
+    display: inlne-flex;
+}
+.conserv img{
+    width: 16%;
+    height: 250px;
+    margin: 0px;
+}
